@@ -1,5 +1,5 @@
 /** @odoo-module **/
-import { HomeMenu } from "@web_enterprise/webclient/home_menu/home_menu";
+import { HomeMenu } from "@studio_community_base/webclient/home_menu/home_menu";
 import { url } from "@web/core/utils/urls";
 import { patch } from "@web/core/utils/patch";
 

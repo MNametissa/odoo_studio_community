@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <templates xml:space="preserve">
 
-  <t t-name="odoo_studio_community.StudioNavbar" t-inherit="web_enterprise.EnterpriseNavBar" t-inherit-mode="primary">
+  <t t-name="odoo_studio_community.StudioNavbar" t-inherit="studio_community_base.EnterpriseNavBar" t-inherit-mode="primary">
       <xpath expr="//nav" position="attributes">
         <attribute name="class" add="o_studio_navbar" separator=" "/>
       </xpath>

@@ -4,7 +4,7 @@ import { patch } from "@web/core/utils/patch";
 import { ListRenderer } from "@web/views/list/list_renderer";
 import { useService } from "@web/core/utils/hooks";
 
-import "@web_enterprise/views/list/list_renderer_desktop";
+import "@studio_community_base/views/list/list_renderer_desktop";
 
 export const patchListRendererStudio = {
     setup() {

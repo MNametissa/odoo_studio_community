@@ -11,8 +11,8 @@ odoo.define('odoo_studio_community.ListRenderer', function (require) {
 const ListRenderer = require('web.ListRenderer');
 const { patch } = require('web.utils');
 
-// This is used to force odoo_studio_community to load after web_enterprise
-require('web_enterprise.ListRenderer');
+// This is used to force odoo_studio_community to load after studio_community_base
+require('studio_community_base.ListRenderer');
 
 patch(ListRenderer.prototype, 'odoo_studio_community.ListRenderer', {
     /**

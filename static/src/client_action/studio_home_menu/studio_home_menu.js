@@ -1,5 +1,5 @@
 /** @odoo-module **/
-import { HomeMenu } from "@web_enterprise/webclient/home_menu/home_menu";
+import { HomeMenu } from "@studio_community_base/webclient/home_menu/home_menu";
 import { useService } from "@web/core/utils/hooks";
 import { NotEditableActionError } from "../../studio_service";
 import { IconCreatorDialog } from "./icon_creator_dialog/icon_creator_dialog";

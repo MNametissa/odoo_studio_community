@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates>
 
-<t t-name="odoo_studio_community.StudioHomeMenu" t-inherit="web_enterprise.HomeMenu" t-inherit-mode="primary" owl="1" t-translation="off">
+<t t-name="odoo_studio_community.StudioHomeMenu" t-inherit="studio_community_base.HomeMenu" t-inherit-mode="primary" owl="1" t-translation="off">
     <xpath expr="//div[hasclass('o_home_menu')]" position="attributes">
         <attribute name="class" add="o_studio_home_menu" separator=" " />
     </xpath>

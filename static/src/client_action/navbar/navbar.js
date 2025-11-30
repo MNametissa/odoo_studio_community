@@ -1,7 +1,7 @@
 /** @odoo-module **/
 
 import { useService } from "@web/core/utils/hooks";
-import { EnterpriseNavBar } from "@web_enterprise/webclient/navbar/navbar";
+import { EnterpriseNavBar } from "@studio_community_base/webclient/navbar/navbar";
 import { NotEditableActionError } from "../../studio_service";
 import { HomeMenuCustomizer } from "./home_menu_customizer/home_menu_customizer";
 import { EditMenuItem } from "../../legacy/edit_menu_adapter";
