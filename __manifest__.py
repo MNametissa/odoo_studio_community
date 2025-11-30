@@ -5,7 +5,6 @@
     'name': "Odoo Studio Community",
     'summary': "Create and customize your Odoo apps - Community Edition",
     'author': 'MNametissa',
-    'website': 'https://www.odoo.com/app/studio',
     'description': """
 Studio - Customize Odoo (Community Edition Port)
 =================================================
