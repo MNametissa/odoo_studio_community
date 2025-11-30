@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+
+    <t t-name="odoo_studio_community.ChatterContainer" t-inherit="mail.ChatterContainer" owl="1">
+        <xpath expr="./div" position="inside">
+            <div class="o_odoo_studio_community_overlay"/>
+        </xpath>
+        <xpath expr="./div" position="attributes">
+            <attribute name="t-on-click.capture.stop">onClick</attribute>
+        </xpath>
+    </t>
+
+    <t t-name="odoo_studio_community.ChatterContainerHook" owl="1">
+        <div t-if="env.config.chatterAllowed" class="o_odoo_studio_community_add_chatter o_chatter" t-on-click.capture.stop="onClick">
+            <span class="container">
+                <span>
+                <i class="fa fa-comments" style="margin-right:10px"/>
+                Add Chatter Widget
+                </span>
+            </span>
+            <div class="o_Studio_ChatterContainer">
+                <ChatterContainer threadModel="props.threadModel"/>
+            </div>
+        </div>
+    </t>
+
+</templates>

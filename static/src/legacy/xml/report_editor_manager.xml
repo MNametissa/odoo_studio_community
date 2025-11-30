@@ -1,0 +1,7 @@
+<templates>
+
+<t t-name="odoo_studio_community.PrintSection">
+    <button class="btn btn-primary o_odoo_studio_community_report_print">Print</button>
+</t>
+
+</templates>

@@ -1,0 +1,23 @@
+.o_odoo_studio_community_field_modal {
+    .modal-header, .modal-footer {
+        background-color: lighten(map-get($grays, '200'), 5%);
+    }
+
+    .o_odoo_studio_community_field_dialog_form {
+        padding: 35px 18px 25px 16px;
+
+        > label {
+            padding-right: 15px;
+        }
+
+        .o_odoo_studio_community_selection_editor {
+            .ui-sortable-handle {
+                cursor: move;
+            }
+        }
+
+        .o_field_widget {
+            width: 100%;
+        }
+    }
+}
